@@ -13,7 +13,7 @@
         "tan-jia-jun": "Tan Jia Jun",
         "jeremiah-lim-zhi-zhong": "Jeremiah Lim Zhi Zhong",
         "marcus-lam": "Marcus Lam",
-        "james-doe": "James Doe"
+        "matthew-elmer-ken": "Matthew Elmer Ken"
       },
       "headingKeywords": {}
     },
@@ -141,7 +141,7 @@
       "src": "team/darryl-chan.md",
       "title": "Darryl Chan's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-educonnect": "Project: EduConnect"
       },
       "headingKeywords": {}
     },
@@ -165,15 +165,7 @@
       "src": "team/jiajun.md",
       "title": "Jia Jun's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
-      },
-      "headingKeywords": {}
-    },
-    {
-      "src": "team/johndoe.md",
-      "title": "John Doe's Project Portfolio Page",
-      "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-educonnect": "Project: EduConnect"
       },
       "headingKeywords": {}
     },
@@ -181,7 +173,15 @@
       "src": "team/marcuslam.md",
       "title": "Marcus Lam's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-educonnect": "Project: EduConnect"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/matthewken19.md",
+      "title": "Matthew Ken's Project Portfolio Page",
+      "headings": {
+        "project-educonnect": "Project: EduConnect"
       },
       "headingKeywords": {}
     },
