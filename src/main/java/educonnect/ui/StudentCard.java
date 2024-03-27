@@ -70,7 +70,8 @@ public class StudentCard extends UiPart<Region> {
         student.getTags().stream()
                 .sorted(Comparator.comparing(tag -> tag.tagName))
                 .forEach(tag -> tags.getChildren().add(new Label(tag.tagName)));
-        timetable.setText(student.getTimetable().toString());
+        String timetableStr = student.shouldHideTimetable() ? "" : student.getTimetable().toString();
+        timetable.setText(timetableStr);
     }
 
     @FXML

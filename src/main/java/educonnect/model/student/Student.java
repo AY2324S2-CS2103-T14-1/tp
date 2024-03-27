@@ -28,6 +28,8 @@ public class Student {
     private final Set<Tag> tags = new HashSet<>();
     private final Timetable timetable;
 
+    private boolean shouldHideTimetable = true;
+
     /**
      * Constructs an {@code Student}.
      * Every field must be present and not null. Links are not included.
@@ -92,6 +94,20 @@ public class Student {
         return timetable;
     }
 
+
+    /**
+     * Returns the hide timetable status for student.
+     */
+    public boolean shouldHideTimetable() {
+        return this.shouldHideTimetable;
+    }
+
+    public void hideTimetable() {
+        this.shouldHideTimetable = true;
+    }
+    public void showTimetable() {
+        this.shouldHideTimetable = false;
+    }
     /**
      * Returns true if both students have the same name.
      * This defines a weaker notion of equality between two students.
@@ -179,6 +195,13 @@ public class Student {
      */
     public boolean isSameTelegramHandle(TelegramHandle otherTelegramHandle) {
         return otherTelegramHandle != null && otherTelegramHandle.equals(getTelegramHandle());
+    }
+
+    /**
+     * Returns a copy of the current student.
+     */
+    public Student copy() {
+        return new Student(name, studentId, email, telegramHandle, link, tags, timetable);
     }
 
     /**
