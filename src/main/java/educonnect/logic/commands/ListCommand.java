@@ -1,12 +1,8 @@
 package educonnect.logic.commands;
 
-import static educonnect.logic.parser.CliSyntax.PREFIX_EMAIL;
-import static educonnect.logic.parser.CliSyntax.PREFIX_STUDENT_ID;
-import static educonnect.logic.parser.CliSyntax.PREFIX_TELEGRAM_HANDLE;
 import static java.util.Objects.requireNonNull;
 
 import java.util.List;
-import java.util.function.Predicate;
 
 import educonnect.model.Model;
 import educonnect.model.student.Student;
@@ -49,7 +45,7 @@ public class ListCommand extends Command {
             model.setStudent(s, studentAfter);
         }
         model.updateFilteredStudentList(Model.PREDICATE_SHOW_ALL_STUDENTS);
-        String output_msg = showTimeTable ? MESSAGE_SUCCESS_TIMETABLE : MESSAGE_SUCCESS;
-        return new CommandResult(output_msg);
+        String outputMessage = showTimeTable ? MESSAGE_SUCCESS_TIMETABLE : MESSAGE_SUCCESS;
+        return new CommandResult(outputMessage);
     }
 }
