@@ -7,7 +7,6 @@ import static educonnect.logic.parser.CliSyntax.PREFIX_STUDENT_ID;
 import static educonnect.testutil.Assert.assertThrows;
 import static educonnect.testutil.TypicalIndexes.INDEX_FIRST_STUDENT;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.List;
