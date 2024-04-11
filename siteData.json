@@ -58,17 +58,19 @@
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
-        "appendix-requirements": "Appendix: Requirements",
+        "appendix-a-requirements": "Appendix A: Requirements",
         "product-scope": "Product scope",
         "user-stories": "User stories",
         "use-cases": "Use cases",
         "non-functional-requirements": "Non-Functional Requirements",
         "glossary": "Glossary",
-        "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
+        "appendix-b-instructions-for-manual-testing": "Appendix B: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "listing-all-students": "Listing all students",
         "deleting-a-student": "Deleting a student",
-        "saving-data": "Saving data"
+        "saving-data": "Saving data",
+        "appendix-c-effort": "Appendix C: Effort",
+        "appendix-d-planner-enhancements": "Appendix D: Planner Enhancements"
       },
       "headingKeywords": {}
     },
