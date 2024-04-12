@@ -124,7 +124,7 @@
         "locating-students-by-name-find": "Locating students by name: find",
         "copying-student-emails-copy": "Copying student emails: copy",
         "deleting-a-student-delete": "Deleting a student: delete",
-        "finding-a-common-time-slot-among-students-slots": "Finding a common time slot among students: slots",
+        "finding-a-common-available-time-slot-among-students-slots": "Finding a common available time slot among students: slots",
         "clearing-all-students-clear": "Clearing all students: clear",
         "exiting-educonnect-exit": "Exiting EduConnect: exit",
         "saving-the-data": "Saving the data",
