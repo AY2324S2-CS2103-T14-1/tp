@@ -55,6 +55,7 @@
         "implementation": "Implementation",
         "timetable-support": "Timetable Support",
         "website-url-support": "Website URL support",
+        "copy-emails-to-clipboard-feature": "Copy Emails to Clipboard feature",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
